@@ -1,0 +1,74 @@
+{
+  "name": "israel_mail",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@hookform/resolvers": "^2.9.11",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@mui/x-data-grid": "^5.17.26",
+    "@mui/x-date-pickers": "^5.0.20",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.55",
+    "@types/react": "^17.0.55",
+    "@types/react-dom": "^17.0.19",
+    "@types/react-redux": "^7.1.25",
+    "@types/react-window": "^1.8.5",
+    "@types/uuid": "^8.3.4",
+    "axios": "^0.24.0",
+    "date-fns": "^2.29.3",
+    "dompurify": "^2.4.5",
+    "firebase": "^9.21.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^12.1.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.43.8",
+    "react-redux": "^7.2.9",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.0",
+    "react-window": "^1.8.8",
+    "stylis": "^4.0.10",
+    "stylis-plugin-rtl": "^2.1.1",
+    "typescript": "^4.9.5",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.2",
+    "xlsx": "^0.18.5",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/dompurify": "^2.4.0",
+    "@types/react-google-recaptcha": "^2.1.5",
+    "@types/react-html-parser": "^2.0.2"
+  }
+}

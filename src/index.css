@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Bar3of9';
+  src: url('./Fonts/Bar3of9.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.ModalOnScreen {
+  overflow: hidden;
+}
+
+/* used for dataGrid hover effect */
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  font-weight: 600;
+}
+
+.redLink {
+  cursor: pointer;
+  color: #cb0006;
+}
+
+.redLink:hover {
+  font-weight: 500;
+}
+
+/* <-------------> */
+
+/* 
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 27px
+}
+::-webkit-scrollbar-thumb {
+  background: #cb0006;
+  border-radius: 27px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+} */
+
+
+.specialScroll::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+.specialScroll::-webkit-scrollbar-track {
+  border-radius: 27px
+}
+
+.specialScroll::-webkit-scrollbar-thumb {
+  background: #cb0006;
+  border-radius: 27px;
+}
+
+.specialScroll::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+
+.Expandable-Grid *[data-rowindex]:hover {
+  background-color: rgba(78, 78, 78, 0.075);
+  cursor: pointer
+}

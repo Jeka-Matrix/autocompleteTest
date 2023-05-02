@@ -1,0 +1,81 @@
+.bbox {
+    position: absolute;
+    z-index: 1200;
+    pointer-events: none;
+
+    --lightRed: rgba(206, 1, 0, .07);
+    --lightBlue: rgba(236, 250, 255, .3);
+    --blue: rgba(236, 250, 255, .9);
+}
+
+.bbox-login-1 {
+    z-index: -1;
+    width: 182px;
+    height: 280px;
+    border-radius: 40px;
+    filter: blur(45px);
+    -webkit-filter: blur(45px);
+    background-color: var(--lightRed);
+    bottom: -82px;
+    right: -35px;
+}
+
+.bbox-login-2 {
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    filter: blur(45px);
+    -webkit-filter: blur(45px);
+    background-color: var(--lightRed);
+    top: 173px;
+    left: 59px;
+}
+
+.bbox-login-3 {
+    z-index: -1;
+    width: 271px;
+    height: 229px;
+    border-radius: 0 0 0 20px;
+    filter: blur(45px);
+    -webkit-filter: blur(45px);
+    background-color: var(--lightBlue);
+    top: -100px;
+    left: -200px;
+}
+
+.bbox-login-4 {
+    z-index: -1;
+    width: 251px;
+    height: 225px;
+    border-radius: 40px;
+    filter: blur(45px);
+    -webkit-filter: blur(45px);
+    background-color: var(--lightRed);
+    top: -131px;
+    left: 42px;
+}
+
+
+.bbox-login-5 {
+    width: 221px;
+    height: 167px;
+    border-radius: 50px;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    background-color: var(--lightRed);
+    top: 42%;
+    left: 30%;
+}
+
+.bbox-login-6 {
+    z-index: -1;
+    width: 251px;
+    height: 209px;
+    border-radius: 0 0 20px 0;
+    filter: blur(40px);
+    -webkit-filter: blur(40px);
+    background-color: var(--blue);
+    top: 0;
+    left: 0;
+}
